@@ -12,6 +12,47 @@ header {
 
 }
 
+.tab {
+    background: #fff;
+    border-bottom: 1px solid #ebebeb;
+    height: 80px;
+    top: 80px;
+    width: 100%;
+    z-index: 9999;
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center; 
+}
+
+.tabcontent {
+    top: 1px;
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 0 20px;
+    position: relative;
+    width: 100%;
+    list-style: none;
+}
+
+.columnlist {
+    -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    column-count: 2;
+    column-gap: 20px;
+    list-style: none;
+    column-fill: balance;    
+}
+
+li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+
+
 h3 {
     color: #000;
     font-size: 20px;
@@ -26,6 +67,7 @@ h4 {
     font-weight: 400;
     margin-bottom: 40px;
     text-align: center;
+    column-span: all;
 }
 
 /* Path: Arahkni.github.io\index.html */
