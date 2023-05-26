@@ -1,5 +1,5 @@
 
-function clickHandle(evt, animalName) {
+function clickHandle(evt, locationName) {
   let i, tabcontent, tablinks;
 
   // This is to clear the previous clicked content.
@@ -15,7 +15,7 @@ function clickHandle(evt, animalName) {
   }
 
   // Display the clicked tab and set it to active.
-  document.getElementById(animalName).style.display = "block";
+  document.getElementById(locationName).style.display = "block";
   evt.currentTarget.className += " active";
 }
 

@@ -1,4 +1,4 @@
-
+/* button bar */
 .tab {
     background: #fff;
     border-bottom: 1px solid #ebebeb;
@@ -12,6 +12,7 @@
     text-align: left;
 }
 
+/* Button Styles */
 .tablinks {
     background-color: #fff;
     border: 1px solid #eaecea;
@@ -30,6 +31,7 @@
     width: 33.3333%;
 }
 
+/* body of the tab content */
 .tabcontent {
     top: 1px;
     margin: 0 auto;
@@ -40,6 +42,7 @@
     list-style: none;
 }
 
+/* rules for the base list*/
 .columnlist {
     -moz-column-count: 2;
     -moz-column-gap: 20px;
@@ -51,11 +54,14 @@
     column-fill: balance;    
 }
 
+/* rules for a list that has a single card in it
+will need to replace with columnlist if more entries
+are added to the list */
 .singlecard {
     columns: auto;
 }
 
-
+/* card styling for address content */
 .card {
     background-color: rgba(155, 206, 212, 0.719);
     border: 2px solid rgb(54, 64, 68);
@@ -64,16 +70,15 @@
     width: 80%;
 }
 
+/* rules for a cards that has a single card in it
+will need to replace with card if more entries
+are added to the list */
 .cardsmall {
     background-color: rgba(155, 206, 212, 0.719);
     border: 2px solid rgb(54, 64, 68);
     padding: 1px;
     margin: 0 0 1em 0;
     width: 33%;
-}
-
-.left {
-    text-align: left;
 }
 
 li {
@@ -96,11 +101,13 @@ header {
 
 }
 
+/* body styles */
 body {
     background-color: #eaecea;
     font-weight: 400;
 }
 
+/* body header styles */
 h3 {
     color: #000;
     font-size: 20px;
@@ -109,6 +116,7 @@ h3 {
     text-align: left;
 }
 
+/* header for the lists contents */
 h4 {
     color: #000;
     font-size: 20px;
